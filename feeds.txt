@@ -1,0 +1,29 @@
+# Format:  type | name | feed url
+# type is "national" or "local". Lines starting with # are ignored.
+# Add or remove lines any time. Broken feeds are listed at the bottom of the digest page.
+
+national | CBS News | https://www.cbsnews.com/latest/rss/main
+national | NPR | https://feeds.npr.org/1001/rss.xml
+national | BBC News | https://feeds.bbci.co.uk/news/rss.xml
+national | NY Times | https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
+national | Guardian US | https://www.theguardian.com/us-news/rss
+national | ABC News | https://abcnews.go.com/abcnews/topstories
+national | NBC News | https://feeds.nbcnews.com/nbcnews/public/news
+national | Fox News | https://moxie.foxnews.com/google-publisher/latest.xml
+national | Washington Post | https://feeds.washingtonpost.com/rss/national
+national | LA Times | https://www.latimes.com/local/rss2.0.xml
+
+local | CBS New York | https://www.cbsnews.com/newyork/latest/rss/main
+local | CBS Los Angeles | https://www.cbsnews.com/losangeles/latest/rss/main
+local | CBS Chicago | https://www.cbsnews.com/chicago/latest/rss/main
+local | CBS Miami | https://www.cbsnews.com/miami/latest/rss/main
+local | CBS Boston | https://www.cbsnews.com/boston/latest/rss/main
+local | CBS Philadelphia | https://www.cbsnews.com/philadelphia/latest/rss/main
+local | CBS Bay Area | https://www.cbsnews.com/sanfrancisco/latest/rss/main
+local | CBS Texas | https://www.cbsnews.com/texas/latest/rss/main
+local | CBS Detroit | https://www.cbsnews.com/detroit/latest/rss/main
+local | CBS Minnesota | https://www.cbsnews.com/minnesota/latest/rss/main
+local | CBS Pittsburgh | https://www.cbsnews.com/pittsburgh/latest/rss/main
+local | CBS Colorado | https://www.cbsnews.com/colorado/latest/rss/main
+local | CBS Baltimore | https://www.cbsnews.com/baltimore/latest/rss/main
+local | CBS Sacramento | https://www.cbsnews.com/sacramento/latest/rss/main
