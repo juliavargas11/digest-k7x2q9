@@ -1,0 +1,25 @@
+name: Build morning digest
+on:
+  schedule:
+    - cron: "0 9 * * *"     # 9:00 UTC = 4am or 5am Eastern depending on daylight saving
+  workflow_dispatch:         # lets you click "Run workflow" manually
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install feedparser
+      - run: python digest.py
+      - name: Save the page
+        run: |
+          git config user.name "digest-bot"
+          git config user.email "digest-bot@users.noreply.github.com"
+          git add docs/index.html
+          git commit -m "Update digest" || echo "No changes"
+          git push
+          
